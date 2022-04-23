@@ -1,1 +1,1 @@
-# pands-proects
+# pands-project
