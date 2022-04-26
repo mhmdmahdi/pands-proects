@@ -50,3 +50,5 @@
     Had some trouble importing the dataset but eventually got it. This may have been due to trying to run the code using the wrong interpreter which also caused me trouble for the plottask.py assignment. Not exactly sure what caused the fix but eventually the code just worked. Initial error message I was receiving was a long error message that seemed to be coming from the source file <"in __getattr__     return self[key] KeyError: 'datasets'">
 
 # pands-project - Day 4 26Apr2022
+    Developed an understanding of the contents of the imported module by writing the 'print' code for the different variables.
+    Outputted a summary of the variables using the 'print' command to a summary text file. Need to remove the comments of this summary from the main code as it is redundant duplicating this text. 
