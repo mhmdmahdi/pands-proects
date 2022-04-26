@@ -42,10 +42,11 @@
     https://www.youtube.com/watch?v=6BagRiSY1ds&list=PLMAyPTgGwv2DUV6DZib9eMetsTTX87JNr&index=2
     2) This Notebook reference uses a number of built in functions available in Python and outputs the results of the dataset. I don't think I'd learn much from this reference but it will be a good check to come back to once I've completed the assignment as the results are very comprehensive. Its just the method of getting the results which seems too simple.
     https://www.kaggle.com/code/jchen2186/machine-learning-with-iris-dataset/notebook
-    3) The scikit learn websiet and notebook seems to be a good starting point and uses numpy which I'm familiar with from the plottask.py assignment. However this reference only plays with the first 2 features of the dataset so I will need to keep this in mind. Also the plots are not the required plots for this assignment. Still this reference is a good starting point.
+    3) The scikit learn website and notebook seems to be a good starting point and uses numpy which I'm familiar with from the plottask.py assignment. However this reference only plays with the first 2 features of the dataset so I will need to keep this in mind. Also the plots are not the required plots for this assignment. Still this reference is a good starting point.
     https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
     4) After checking many of the references I don't think I will get away with avoiding the use of Pandas. I may try to start by following some of the references mentioned previously and this next reference and gain a minimal understanding of Pandas but I may also have to play catch up and squeeze in some time to catch up on the last of the lecture series, which I was hoping I could do after submitting this assignment. This github repository is very easy to follow and I will use this as the backbone of my project.
     https://github.com/RitRa/Project2018-iris
 
     Had some trouble importing the dataset but eventually got it. This may have been due to trying to run the code using the wrong interpreter which also caused me trouble for the plottask.py assignment. Not exactly sure what caused the fix but eventually the code just worked. Initial error message I was receiving was a long error message that seemed to be coming from the source file <"in __getattr__     return self[key] KeyError: 'datasets'">
 
+# pands-project - Day 4 26Apr2022

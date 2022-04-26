@@ -1,7 +1,3 @@
-from sklearn.datasets import load_iris
-
-data = load_iris()
-
 print(list(data.target_names))
 # ['setosa', 'versicolor', 'virginica',]
 # dataset imported using the reference https://www.codegrepper.com/code-examples/python/how+to+import+iris+dataset
@@ -29,3 +25,4 @@ print(data.data)
 # Using all of the above information I could see that the 0's represent 'setosa', 1's represent versicolor and 2's represent 'virginica'.
 # This also meant that the the first 50 rows in the raw data were associated with 'setosa'/ 0's, the second 50 rows associated with 'versicolor'/ 1's and the third 50 rows associated with 'virginica'/ 2's.
 # The 1st column in the data was for sepal lenth, 2nd column for sepal width, 3rd column for petal length and 4th column for petal width.
+
