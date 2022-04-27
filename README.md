@@ -13,13 +13,17 @@
 
     27Apr2022
     Save a histogram of each variable to png files
+    # Develop understading of possibilities with code and understanding of the fundamentals of histograms.
 
     28Apr2022
     Output a scatter plot of each pair of vaiables
+    # Write my own code to create a histogram for each variable and save a histogram of each variable to png files.
+    # Write my own code for a scatter plot of each pair of variables.
 
     29Apr2022
     Generated summary text file
     https://towardsdatascience.com/understand-text-summarization-and-create-your-own-summarizer-in-python-b26a9f09fc70
+    # This has already been created so there will be spillover from previous days work. This final day can also be used to tidy up code and files due for submission.
 
 # pands-project - Day 2 24Apr2022
     Four features measured from each of 3 samples. These features were length and width of sepals and petals.
@@ -51,4 +55,10 @@
 
 # pands-project - Day 4 26Apr2022
     Developed an understanding of the contents of the imported module by writing the 'print' code for the different variables.
-    Outputted a summary of the variables using the 'print' command to a summary text file. Need to remove the comments of this summary from the main code as it is redundant duplicating this text. 
+    Outputted a summary of the variables using the 'print' command to a summary text file. Need to remove the comments of this summary from the main code as it is redundant duplicating this text.
+
+# pands-project - Day 5 27Apr2022
+    As mentioned previously there are 4 variables (petal and sepal length and width) in the iris data set from each of 3 samples (Setosa, Versicolor and Virginica). This results in 150 lines of data.
+    After beginning on todays work I realised that I need to put more time into the histograms. Today I have understood that what I am trying to do can be achieved in python. Now the goal for tomorrow will be the execution of this delivery. By copying code from Stack Overflow I know that the imported data I am using can be used to plot histograms. Reference: https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
+    Now what I need to do tomorrow is create my own code to build the histograms as I want them in a way that I undertand. Good understanding of histogram fundamentals was taken from the below reference: https://www.investopedia.com/terms/h/histogram.asp#:~:text=A%20histogram%20is%20a%20graphical,into%20logical%20ranges%20or%20bins.
+    I have now readjusted the goals for the next couple of days.
