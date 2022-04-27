@@ -62,3 +62,10 @@
     After beginning on todays work I realised that I need to put more time into the histograms. Today I have understood that what I am trying to do can be achieved in python. Now the goal for tomorrow will be the execution of this delivery. By copying code from Stack Overflow I know that the imported data I am using can be used to plot histograms. Reference: https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
     Now what I need to do tomorrow is create my own code to build the histograms as I want them in a way that I undertand. Good understanding of histogram fundamentals was taken from the below reference: https://www.investopedia.com/terms/h/histogram.asp#:~:text=A%20histogram%20is%20a%20graphical,into%20logical%20ranges%20or%20bins.
     I have now readjusted the goals for the next couple of days.
+    Other references used today:
+    https://www.kaggle.com/code/jchen2186/machine-learning-with-iris-dataset/notebook
+    https://scikit-learn.org/stable/auto_examples/datasets/plot_iris_dataset.html
+    https://github.com/RitRa/Project2018-iris
+    https://www.kaggle.com/code/abhishekkrg/python-iris-data-visualization-and-explanation/notebook
+    https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
+    https://www.codegrepper.com/code-examples/python/how+to+import+iris+dataset
