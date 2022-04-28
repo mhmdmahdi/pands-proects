@@ -29,6 +29,6 @@ for i, ax in enumerate(axes.flat):
         ax.set_xlabel(data.feature_names[i])
         ax.legend(loc='upper right')
 plt.show()
-# This code was completely ripped off from Stack Overflow. https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
+# This code was completely ripped off from Stack Overflow and modified slightly to my iris data file name. https://stackoverflow.com/questions/45721083/unable-to-plot-4-histograms-of-iris-dataset-features-using-matplotlib
 # I need to come back to this and come up with my own code that I actually understand
 # For me the goal of copying and pasting this code directly from Stack Overflow was to see if this program could generate the histograms (and other plots) directly from the imported dataset without using numpy or pandas. The answer is yes...

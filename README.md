@@ -69,3 +69,9 @@
     https://www.kaggle.com/code/abhishekkrg/python-iris-data-visualization-and-explanation/notebook
     https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
     https://www.codegrepper.com/code-examples/python/how+to+import+iris+dataset
+
+# pands-project - Day 6 28Apr2022
+    Extension on project granted until 08May2022.
+    I will take today off and get back to work tomorrow.
+    For today I'll just go through the video series and see if there's anything that will help with the code I am going to write over the next week now.
+    https://www.youtube.com/watch?v=6BagRiSY1ds&list=PLMAyPTgGwv2DUV6DZib9eMetsTTX87JNr&index=2
