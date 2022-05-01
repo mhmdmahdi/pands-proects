@@ -14,11 +14,13 @@
     27Apr2022
     Save a histogram of each variable to png files
     # Develop understading of possibilities with code and understanding of the fundamentals of histograms.
+    # Completed on 01May2022
 
     28Apr2022
     Output a scatter plot of each pair of vaiables
     # Write my own code to create a histogram for each variable and save a histogram of each variable to png files.
     # Write my own code for a scatter plot of each pair of variables.
+    # To begin this on 02May2022
 
     29Apr2022
     Generated summary text file
@@ -73,5 +75,20 @@
 # pands-project - Day 6 28Apr2022
     Extension on project granted until 08May2022.
     I will take today off and get back to work tomorrow.
+
+# pands-project - Day 7 29Apr2022
+    No work done today
+
+# pands-project - Day 8 30Apr2022
+    No work done today
+
+# pands-project - Day 9 01May2022
     For today I'll just go through the video series and see if there's anything that will help with the code I am going to write over the next week now.
     https://www.youtube.com/watch?v=6BagRiSY1ds&list=PLMAyPTgGwv2DUV6DZib9eMetsTTX87JNr&index=2
+        Need to import numpy as np, pandas as pd and seaborn as sns
+        sns.set() - updates the plotting styles to use the seaborn plotting styles
+    Accoring to the lecture series referenced above pandas Dataframe makes things simpler than Numpy. For this reason I will use Pandas dataframe.
+    Histogram of each variable plotted and saved.
+        * If I have time after completing project I can come back and tidy up this code to iterate and print in 1 block of code as opposed to 4/5 different blocks of code
+        * I should also come back and explain the data that each histogram is presenting
+        * Pointing out the differences between python and excel could be of benefit in this regard and the benefits of choosing one over the other.
