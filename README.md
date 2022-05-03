@@ -87,8 +87,37 @@
     https://www.youtube.com/watch?v=6BagRiSY1ds&list=PLMAyPTgGwv2DUV6DZib9eMetsTTX87JNr&index=2
         Need to import numpy as np, pandas as pd and seaborn as sns
         sns.set() - updates the plotting styles to use the seaborn plotting styles
-    Accoring to the lecture series referenced above pandas Dataframe makes things simpler than Numpy. For this reason I will use Pandas dataframe.
+    According to the lecture series referenced above pandas Dataframe makes things simpler than Numpy. For this reason I will use Pandas dataframe.
     Histogram of each variable plotted and saved.
         * If I have time after completing project I can come back and tidy up this code to iterate and print in 1 block of code as opposed to 4/5 different blocks of code
         * I should also come back and explain the data that each histogram is presenting
         * Pointing out the differences between python and excel could be of benefit in this regard and the benefits of choosing one over the other.
+
+# pands-project - Day 10 02May2022
+    No work done today
+
+# pands-project - Day 11 03May2022
+   Attempted to complete the scatter plots for this assignment. Goal of today was to try find out which scatter plot pairs would be relevant.
+   Achievement for today was loading the dataset into seaborn and figuring out which plots would are required.
+   What I next want to do is create a scatter plot for the following:
+    •sepal length vs petal width
+    •sepal length vs petal length
+    •sepal length vs sepal width
+    •sepal width vs petal width
+    •sepal width vs petal length
+    •sepal width vs sepal length
+    •petal length vs sepal width
+    •petal length vs sepal length
+    •petal length vs petal width
+    •petal width vs sepal width
+    •petal width vs sepal length
+    •petal width vs petal length
+
+
+
+# pands-project - Day XX XXMay2022
+    If I'm interested in the relationship between the features and what I'm trying to predict (as I've outlined as a task under Day 2):
+        *Goal of assignment is to predict what type of Iris a flower is based off of the available data points (or given features).*
+    then I need to plot the features against the target.
+    This is also outlined as a task under #4 in the Project document - Performs any other analysis you think is appropriate.
+

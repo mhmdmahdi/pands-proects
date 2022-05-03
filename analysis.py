@@ -1,3 +1,4 @@
+import seaborn as sns
 import pandas as pd
 import matplotlib.pyplot as plt
 from sklearn.datasets import load_iris
@@ -37,6 +38,9 @@ df = pd.DataFrame(data["data"], columns=data["feature_names"])
 # Creating a Pandas DataFrame from the data
 df["target"] = data["target"]
 # Adding 'target' data to dataframe under a new column called 'target'
+df["target_name"] = df["target"].map(
+    {0: "setosa", 1: "versicolor", 2: "virginica"})
+# Adding 'target_name' data to dataframe under a new column and using the mapping function to pair this wth the defined target syntax.
 print(df)
 
 print(df.describe())
@@ -67,3 +71,14 @@ df[hist5].hist()
 plt.suptitle(hist5)
 plt.show()
 # If I have time after completing project I can come back and tidy up this code to iterate and print in 1 block of code as opposed to 4/5 different blocks of code
+
+# sns.pairplot(df, hue="target")
+# This line of code seems like a bit of a cheat code. It should output every pair of plots available from the dataset against each other. This will help me to discern which scatter plots are relevant then I can type out the line code for action #3 of the assignment as per the histogram code above.
+# Had to install then import seaborn
+# This line of code didn't actually work for me so I will plot each scatter plot individually.
+
+iris = sns.load_dataset("iris")
+iris.head()
+print(iris)
+# sns.scatterplot(data=tips, x="total_bill", y="tip")
+# https: // seaborn.pydata.org/generated/seaborn.scatterplot.html  # seaborn.scatterplot
