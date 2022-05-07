@@ -12,7 +12,7 @@ data = load_iris()
 # ['data', 'target', 'frame', 'target_names', 'DESCR', 'feature_names', 'filename', 'data_module']
 # attempted to print this command to see what else what stored in the load_iris dataset
 # print(list(data.target))
-#[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+# [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
 # print(list(data.feature_names))
 # ['sepal length (cm)', 'sepal width (cm)', 'petal length (cm)', 'petal width (cm)']
 # print(data.data)
@@ -46,39 +46,76 @@ print(df)
 print(df.describe())
 # returns some statistical information
 
-hist1 = "sepal length (cm)"
-df[hist1].hist()
-plt.suptitle(hist1)
-plt.show()
+# hist1 = "sepal length (cm)"
+# df[hist1].hist()
+# plt.suptitle(hist1)
+# plt.show()
 
-hist2 = "sepal width (cm)"
-df[hist2].hist()
-plt.suptitle(hist2)
-plt.show()
+# hist2 = "sepal width (cm)"
+# df[hist2].hist()
+# plt.suptitle(hist2)
+# plt.show()
 
-hist3 = "petal length (cm)"
-df[hist3].hist()
-plt.suptitle(hist3)
-plt.show()
+# hist3 = "petal length (cm)"
+# df[hist3].hist()
+# plt.suptitle(hist3)
+# plt.show()
 
-hist4 = "petal width (cm)"
-df[hist4].hist()
-plt.suptitle(hist4)
-plt.show()
+# hist4 = "petal width (cm)"
+# df[hist4].hist()
+# plt.suptitle(hist4)
+# plt.show()
 
-hist5 = data.feature_names
-df[hist5].hist()
-plt.suptitle(hist5)
-plt.show()
+# hist5 = data.feature_names
+# df[hist5].hist()
+# plt.suptitle(hist5)
+# plt.show()
 # If I have time after completing project I can come back and tidy up this code to iterate and print in 1 block of code as opposed to 4/5 different blocks of code
 
-# sns.pairplot(df, hue="target")
+sns.pairplot(df, hue="target")
+plt.show()
 # This line of code seems like a bit of a cheat code. It should output every pair of plots available from the dataset against each other. This will help me to discern which scatter plots are relevant then I can type out the line code for action #3 of the assignment as per the histogram code above.
 # Had to install then import seaborn
-# This line of code didn't actually work for me so I will plot each scatter plot individually.
+# hue="target" adds colour to the plots to help differentiate as it calls in the relationship between x and y for different subsets of the data
+# I should comment on the data and talk about what it means
 
 iris = sns.load_dataset("iris")
 iris.head()
 print(iris)
-# sns.scatterplot(data=tips, x="total_bill", y="tip")
+
+# sns.scatterplot(data=iris, x="sepal_length", y="petal_width", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="sepal_length", y="petal_length", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="sepal_length", y="sepal_width", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="sepal_width", y="petal_width", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="sepal_width", y="petal_length", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="sepal_width", y="sepal_length", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="petal_length", y="sepal_width", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="petal_length", y="sepal_length", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="petal_length", y="petal_width", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="petal_width", y="sepal_width", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="petal_width", y="sepal_length", hue="species")
+# plt.show()
+
+# sns.scatterplot(data=iris, x="petal_width", y="petal_length", hue="species")
+# plt.show()
 # https: // seaborn.pydata.org/generated/seaborn.scatterplot.html  # seaborn.scatterplot

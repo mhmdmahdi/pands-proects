@@ -21,6 +21,8 @@
     # Write my own code to create a histogram for each variable and save a histogram of each variable to png files.
     # Write my own code for a scatter plot of each pair of variables.
     # To begin this on 02May2022
+    # Completed on 03May2022 with sns.pairplot
+    # Revisited and completed again for each individual plot by 07May2022
 
     29Apr2022
     Generated summary text file
@@ -77,10 +79,10 @@
     I will take today off and get back to work tomorrow.
 
 # pands-project - Day 7 29Apr2022
-    No work done today
+    No work done on this project today
 
 # pands-project - Day 8 30Apr2022
-    No work done today
+    No work done on this project today
 
 # pands-project - Day 9 01May2022
     For today I'll just go through the video series and see if there's anything that will help with the code I am going to write over the next week now.
@@ -94,7 +96,7 @@
         * Pointing out the differences between python and excel could be of benefit in this regard and the benefits of choosing one over the other.
 
 # pands-project - Day 10 02May2022
-    No work done today
+    No work done on this project today
 
 # pands-project - Day 11 03May2022
    Attempted to complete the scatter plots for this assignment. Goal of today was to try find out which scatter plot pairs would be relevant.
@@ -113,11 +115,28 @@
     •petal width vs sepal length
     •petal width vs petal length
 
+# pands-project - Day 12 04May2022
+    No work done on this project today
 
+# pands-project - Day 13 05May2022
+    No work done on this project today
 
-# pands-project - Day XX XXMay2022
+# pands-project - Day 14 06May2022
+    No work done on this project today
+
+# pands-project - Day 15 07May2022
+    Scatter plots created for each individual plot listed for Day 11 above and saved as png files.
+    At this point the ask of the assignment is technically complete.
+    Only task 4 remains which is:
+        Perform any other analysis you think is appropriate.
+
     If I'm interested in the relationship between the features and what I'm trying to predict (as I've outlined as a task under Day 2):
         *Goal of assignment is to predict what type of Iris a flower is based off of the available data points (or given features).*
-    then I need to plot the features against the target.
-    This is also outlined as a task under #4 in the Project document - Performs any other analysis you think is appropriate.
+    then I need to write a model for machine learning. The question the model will answer is:
+        • Based on the given set of datapoints, what is the species of iris?
+        • Also what is the probability that the model above is correct when compared to the know target data
+        • Final question to answer can be a prediction: Based on measurements (x,x,x,x) for (sl, sw, pl and pw) what is the species of iris
+ref 1: https://www.youtube.com/watch?v=f3kSEebz8QA&list=PLMAyPTgGwv2DUV6DZib9eMetsTTX87JNr&index=4
+ref 2: https://www.kaggle.com/code/jchen2186/machine-learning-with-iris-dataset/notebook
+ref 3: https://github.com/RitRa/Project2018-iris
 
